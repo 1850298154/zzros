@@ -1,0 +1,1 @@
+night_scene = None # "int  夜间 只扫描 不打击",

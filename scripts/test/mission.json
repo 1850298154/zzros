@@ -1,0 +1,135 @@
+{
+    "planType": 0,
+    "missions": [
+        {
+            "type": 0,
+            "points": [
+                {
+                    "latitude": 41.7041358,
+                    "longitude": 123.4332115,
+                    "alt": 0,
+                    "radius": 0,
+                    "startAngle": 0,
+                    "sweepAngle": 0
+                },
+                {
+                    "latitude": 41.7032267,
+                    "longitude": 123.4329916,
+                    "alt": 0,
+                    "radius": 0,
+                    "startAngle": 0,
+                    "sweepAngle": 0
+                },
+                {
+                    "latitude": 41.7024457,
+                    "longitude": 123.4340966,
+                    "alt": 0,
+                    "radius": 0,
+                    "startAngle": 0,
+                    "sweepAngle": 0
+                },
+                {
+                    "latitude": 41.702674,
+                    "longitude": 123.4351266,
+                    "alt": 0,
+                    "radius": 0,
+                    "startAngle": 0,
+                    "sweepAngle": 0
+                },
+                {
+                    "latitude": 41.7040612,
+                    "longitude": 123.4351924,
+                    "alt": 0,
+                    "radius": 0,
+                    "startAngle": 0,
+                    "sweepAngle": 0
+                }
+            ]
+        }
+    ],
+    "uavs": [
+        {
+            "order": 2,
+            "flyMode": 0,
+            "longitude": 123.4323312,
+            "latitude": 41.704102,
+            "alt": 0,
+            "homelongitude": 123.4323382,
+            "homelatitude": 41.7041001
+        },
+        {
+            "order": 4,
+            "flyMode": 0,
+            "longitude": 123.432907,
+            "latitude": 41.7038125,
+            "alt": -0.03,
+            "homelongitude": 123.4329085,
+            "homelatitude": 41.7038101
+        },
+        {
+            "order": 5,
+            "flyMode": 0,
+            "longitude": 123.4325897,
+            "latitude": 41.7034787,
+            "alt": 0.048,
+            "homelongitude": 123.4325919,
+            "homelatitude": 41.7034801
+        },
+        {
+            "order": 6,
+            "flyMode": 0,
+            "longitude": 123.4338075,
+            "latitude": 41.703612,
+            "alt": -0.001,
+            "homelongitude": 123.4338045,
+            "homelatitude": 41.7036124
+        },
+        {
+            "order": 7,
+            "flyMode": 0,
+            "longitude": 123.4325902,
+            "latitude": 41.7030809,
+            "alt": -0.02,
+            "homelongitude": 123.432588,
+            "homelatitude": 41.7030816
+        },
+        {
+            "order": 8,
+            "flyMode": 0,
+            "longitude": 123.4356979,
+            "latitude": 41.7021395,
+            "alt": 0.067,
+            "homelongitude": 123.4357007,
+            "homelatitude": 41.7021397
+        },
+        {
+            "order": 9,
+            "flyMode": 0,
+            "longitude": 123.4333973,
+            "latitude": 41.7038097,
+            "alt": 0.072,
+            "homelongitude": 123.4334001,
+            "homelatitude": 41.7038101
+        },
+        {
+            "order": 10,
+            "flyMode": 0,
+            "longitude": 123.433557,
+            "latitude": 41.703226,
+            "alt": 0.052,
+            "homelongitude": 123.4335596,
+            "homelatitude": 41.7032279
+        },
+        {
+            "order": 11,
+            "flyMode": 0,
+            "longitude": 123.432591,
+            "latitude": 41.7034785,
+            "alt": 0.03,
+            "homelongitude": 123.4325919,
+            "homelatitude": 41.7034801
+        }
+    ],
+    "target_todo": [],
+    "target_done": []
+}

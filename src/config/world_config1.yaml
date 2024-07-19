@@ -1,0 +1,65 @@
+world:
+  timestep: 0.1
+  random_seed: 10
+
+map:
+  width: 600
+  length: 600
+  height: 40
+  building:
+    x:
+    - 300
+    - 100
+    - 400
+    y:
+    - 300
+    - 200
+    - 100
+    width: 50
+    length: 50
+    height: 15
+    floors: 3
+
+robots:
+  UAV:
+    num: 15
+    velocity: 20
+    scout_range: 30
+    theta: 40
+    HFOV: 24.9
+    VFOV: 14.7
+    x: 500
+    y: 500
+    z: 30
+  Target:
+    num: 9
+    x:
+    - 50
+    - 60
+    - 300
+    - 50
+    - 250
+    - 100
+    - 300
+    - 400
+    - 450
+    y:
+    - 50
+    - 400
+    - 300
+    - 450
+    - 150
+    - 200
+    - 300
+    - 50
+    - 400
+    z:
+    - 0
+    - 0
+    - 13
+    - 0
+    - 0
+    - 9
+    - 11
+    - 0
+    - 0

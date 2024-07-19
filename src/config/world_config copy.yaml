@@ -1,0 +1,75 @@
+# 注意： 2处高度（search_height, UAV.z） 要统一为一个 数值
+world:
+  timestep: 0.1
+  random_seed: 10
+
+planner:
+  search_height: 10 # 120  # 这个调节无人机在平原上上升的高度  # @property 函数 #  self.target_pos == [-73.78689335  88.16238277 120.        ]     
+
+map:
+  width: 600
+  length: 600
+  height: 40
+  building:
+    x:
+    - 100
+    - 300
+    - 250
+    y:
+    - 100
+    - 200
+    - 400
+    width: 50
+    length: 50
+    height: 15
+    floors: 3
+
+robots:
+  UAV:
+    num: 2
+    velocity: 20
+    scout_range: -1  # 这个绝对没用，在代码中更新
+    theta: 40
+    HFOV: 24.9
+    VFOV: 14.7
+    x: 250
+    y: 400
+    z: 30  # 照相机高度， 算出来实际的扫描宽度或范围
+  Target:
+    num: 9
+    x:
+    - 50
+    - 60
+    - 150
+    - 200
+    - 250
+    - 300
+    - 350
+    - 400
+    - 450
+    y:
+    - 50
+    - 400
+    - 150
+    - 450
+    - 50
+    - 200
+    - 250
+    - 350
+    - 400
+    z:
+    - 0
+    - 0
+    - 13
+    - 0
+    - 0
+    - 9
+    - 11
+    - 0
+    - 0
+
+SocketConfig:
+  local_IP: 127.0.0.1
+  local_port: 4001
+  remote_IP: 127.0.0.1
+  remote_port: 5001
